@@ -13,5 +13,7 @@ span{
     font-family: 'Roboto', sans-serif;
     font-style: oblique;
 }
-
+#myTab{
+    justify-content: center;
+}
 
