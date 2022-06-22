@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
  <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,61 +10,59 @@
         <script src="https://kit.fontawesome.com/16a9350369.js" crossorigin="anonymous"></script>
  </head>
  <body>
+     
      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i><i><b>Instagram</b></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex"></form>
-            </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-success btn-modal" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Create a new post
+                <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i><i><b>Instagram</b></i></a>
+                <button class="navbar-toggler sticky-top" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex"></form>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Create a new post
+                </button>
+                <div class="btn-group">
+                    <button type="button" class="btn text-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
                     </button>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                <form>
-                                    <div>
-                                    <textarea class="form-control" id="message-text"></textarea>
-                                    </div>
-                                    <div class="mt-3">
-                                        <i class="fa-solid fa-camera border border-2 p-2 rounded fs-5"></i>
-                                        <i class="fa-solid fa-location-dot border border-2 p-2 rounded fs-5"></i>
-                                    </div>
-                                </form>
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-primary btn-modal">Publish</button>
-                                </div>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+     <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form>
+                            <div>
+                                <textarea class="form-control" id="message-text"></textarea>
                             </div>
+                            <div class="mt-3">
+                                <i class="fa-solid fa-camera border border-2 p-2 rounded fs-5"></i>
+                                <i class="fa-solid fa-location-dot border border-2 p-2 rounded fs-5"></i>
                             </div>
-                        </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn text-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="fa-solid fa-gear"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Log Out</a></li>
-                            </ul>
-                        </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary btn-modal">Publish</button>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
 
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -154,7 +152,7 @@
                                     <i class="fa-solid fa-ellipsis-vertical fs-5 text-secondary"></i>
                                 </div>
                             </div>
-                          </div>
+                      </div>
                     </div>
                 
                     <div class="container d-flex justify-content-center">
